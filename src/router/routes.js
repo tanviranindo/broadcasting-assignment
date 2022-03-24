@@ -8,7 +8,7 @@ const routes = [
       { path: '/custombroadcast', component: () => import('pages/CustomBroadcast.vue') },
       { path: '/wifirtt', component: () => import('pages/WifiRTT.vue') },
       { path: '/batteryreceiver', component: () => import('pages/BatteryReceiver.vue') },
-      { path: '/showbroadcast', name: "customvalue", component: () => import('pages/ShowBroadcast.vue') },
+      { path: '/showbroadcast', name: "broadcastvalue", component: () => import('pages/ShowBroadcast.vue') },
       { path: '/comparebattery', name: "batteryvalue", component: () => import('pages/CompareBattery.vue') }
     ]
   },

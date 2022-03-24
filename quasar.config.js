@@ -142,9 +142,9 @@ module.exports = configure(function (ctx) {
 
 
       manifest: {
-        name: `Broadcast Assignment`,
-        short_name: `Broadcast Assignment`,
-        description: `Broadcast assignment for CSE489`,
+        name: `Broadcasting Assignment`,
+        short_name: `Broadcasting Assignment`,
+        description: `Broadcasting assignment for CSE489`,
         display: 'standalone',
         orientation: 'portrait',
         background_color: '#ffffff',
@@ -209,7 +209,7 @@ module.exports = configure(function (ctx) {
       builder: {
         // https://www.electron.build/configuration/configuration
 
-        appId: 'broadcast-assignment'
+        appId: 'broadcasting-assignment'
       },
 
       // "chain" is a webpack-chain object https://github.com/neutrinojs/webpack-chain

@@ -1,8 +1,14 @@
 <template>
   <q-page class="flex flex-center">
     <div class="column q-gutter-y-md flex-center">
-      Broadcast View
-      <p>{{ textput }}</p>
+      <p class="text-h6">Custom Broadcast Receiver</p>
+      <p>{{ broadcasttext }}</p>
+      <q-btn
+        color="white"
+        text-color="black"
+        @click="onReturn"
+        label="Return"
+      />
     </div>
   </q-page>
 </template>
@@ -10,18 +16,19 @@
 <script>
 import { Notify } from "quasar";
 import { ref, onMounted } from "vue";
-import { useRoute } from "vue-router";
+import { useRoute, useRouter } from "vue-router";
 
 export default {
   setup() {
-    const router = useRoute();
+    const route = useRoute();
+    const router = useRouter();
     const state = {
-      textput: ref(""),
+      broadcasttext: ref(null),
     };
     onMounted(() => {
-      state.textput.value = router.params.broadcastvalue;
+      state.broadcasttext.value = route.params.broadcastvalue;
       Notify.create({
-        message: "Broadcast received: " + router.params.broadcastvalue,
+        message: "Broadcast received: " + route.params.broadcastvalue,
         actions: [
           {
             label: "Dismiss",
@@ -33,6 +40,9 @@ export default {
     });
     return {
       ...state,
+      onReturn: () => {
+        router.push("/custombroadcast");
+      },
     };
   },
 };

@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <string name="app_name">Broadcast Assignment</string>
-    <string name="title_activity_main">Broadcast Assignment</string>
+    <string name="app_name">Broadcasting Assignment</string>
+    <string name="title_activity_main">Broadcasting Assignment</string>
     <string name="package_name">com.assignment.app</string>
     <string name="custom_url_scheme">com.assignment.app</string>
 </resources>

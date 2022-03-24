@@ -9,11 +9,17 @@
     "test": "echo \"No test specified\" && exit 0"
   },
   "dependencies": {
+    "@awesome-cordova-plugins/core": "^5.40.0",
+    "@awesome-cordova-plugins/wifi-wizard-2": "^5.40.0",
     "@capacitor/android": "^3.4.3",
     "@capacitor/core": "^3.4.3",
+    "@capacitor/ios": "^3.4.3",
     "@capacitor/network": "^1.0.7",
     "@quasar/extras": "^1.0.0",
+    "cordova-plugin-android-wifi-manager": "^1.2.1",
+    "cordova-plugin-wifiwizard2": "^3.1.1",
     "core-js": "^3.6.5",
+    "es6-promise-plugin": "^4.2.2",
     "quasar": "^2.6.0",
     "vue": "^3.0.0",
     "vue-router": "^4.0.0"
