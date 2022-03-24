@@ -4,7 +4,11 @@ Broadcasting assignment for CSE489: Android Development
 
 ## Github Repository
 
-[https://github.com/tanviranindo/broadcasting-assignment](https://github.com/tanviranindo/broadcasting-assignment)
+- Repository - [https://github.com/tanviranindo/broadcasting-assignment](https://github.com/tanviranindo/broadcasting-assignment)
+
+- JavaScript - [https://github.com/tanviranindo/broadcasting-assignment/tree/main](https://github.com/tanviranindo/broadcasting-assignment/tree/main)
+
+- Native - [https://github.com/tanviranindo/broadcasting-assignment/tree/native](https://github.com/tanviranindo/broadcasting-assignment/tree/native)
 
 # Stack
 
