@@ -2,7 +2,9 @@
 
 Broadcasting assignment for CSE489: Android Development
 
-Project URL - https://github.com/tanviranindo/broadcasting-assignment
+## Github Repository
+
+[https://github.com/tanviranindo/broadcasting-assignment][https://github.com/tanviranindo/broadcasting-assignment]
 
 # Stack
 
@@ -14,18 +16,25 @@ Project URL - https://github.com/tanviranindo/broadcasting-assignment
 
 This application has been tested on both portrait and landscape mode in the following devices.
 
-|  Status  |    Model     | Version |  Display  | Screen |
-| :------: | :----------: | :-----: | :-------: | :----: |
-| &#x2611; |  Pixel 4 XL  |  12.0   | 1440x3040 |  6.3"  |
-| &#x2611; |  Pixel 2XL   |  11.0   | 1440x2880 |  6.0"  |
-| &#x2611; |   Nexus 9    |   5.1   | 2048x1536 |  8.9"  |
-| &#x2611; |   Pixel XL   |   5.1   | 1440x2560 |  5.5"  |
-| &#x2611; |    Pixel     |   5.1   | 1920x1080 |  5.0"  |
-| &#x2611; | Nexus 7 2012 |   4.1   | 800x1280  |  7.0"  |
+| Status |    Model    | API |  Display  |
+| :----: | :---------: | :-: | :-------: |
+|   ✔    |   Pixel 5   | 32  | 2340x1080 |
+|   ✔    |  Pixel 4XL  | 31  | 3040x1440 |
+|   ✔    |   Pixel 3   | 31  | 2160x1080 |
+|   ✔    |  Pixel 2XL  | 30  | 2880x1440 |
+|   ✔    |  Pixel XL   | 30  | 2560x1440 |
+|   ✔    |   Nexus 6   | 30  | 2560x1440 |
+|   ✔    |  Nexus 6P   | 29  | 2560x1440 |
+|   ✔    |  Pixel 3a   | 28  | 2220x1080 |
+|   ✔    |  Nexus 5X   | 27  | 1920x1080 |
+|   ✔    | Pixel 3a XL | 26  | 2160x1080 |
+|   ✔    | Pixel 3a XL | 25  | 2160x1080 |
+|   ✔    | Pixel 3a XL | 24  | 2160x1080 |
+|   ✘    |   Nexus 7   | 22  | 1280x800  |
 
 # Update
 
 As per requirements, the assignment is completed, but additional features that can be added are following
 
-- [ ] Write custom plugin for native feature. For example, WifiManager (Turn on/off)
+- [ ] Write custom plugin for native android library. For example, WifiManager (Turn on/off)
 - [ ] Beautify it

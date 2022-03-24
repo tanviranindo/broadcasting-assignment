@@ -16,7 +16,7 @@
 </template>
 
 <script>
-import { WifiWizard2 } from "@awesome-cordova-plugins/wifi-wizard-2";
+// import { WifiWizard2 } from "@awesome-cordova-plugins/wifi-wizard-2";
 import { Network } from "@capacitor/network";
 import { Notify } from "quasar";
 import { useRouter } from "vue-router";
