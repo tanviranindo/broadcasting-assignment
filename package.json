@@ -1,8 +1,8 @@
 {
-  "name": "broadcast-assignment",
+  "name": "broadcasting-assignment",
   "version": "0.0.1",
-  "description": "Broadcast assignment for CSE489",
-  "productName": "Broadcast Assignment",
+  "description": "Broadcasting assignment for CSE489",
+  "productName": "Broadcasting Assignment",
   "author": "tanviranindo <tanviranindo@gmail.com>",
   "private": true,
   "scripts": {
