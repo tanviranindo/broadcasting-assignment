@@ -30,7 +30,7 @@ This application has been tested on both portrait and landscape mode in the foll
 |   ✔    | Pixel 3a XL | 26  | 2160x1080 |
 |   ✔    | Pixel 3a XL | 25  | 2160x1080 |
 |   ✔    | Pixel 3a XL | 24  | 2160x1080 |
-|   ✘    |   Nexus 7   | 22  | 1280x800  |
+|   ✖    |   Nexus 7   | 22  | 1280x800  |
 
 # Update
 
