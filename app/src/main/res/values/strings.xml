@@ -1,9 +1,3 @@
 <resources>
-    <string name="app_name">native-broadcast-assignment</string>
-    <string name="submit">Submit</string>
-    <string-array name="spinnerList">
-        <item>Custom broadcast receiver</item>
-        <item>Wifi RTT state change receiver</item>
-        <item>System battery notification receiver</item>
-    </string-array>
+    <string name="app_name">broadcastingassignment</string>
 </resources>
