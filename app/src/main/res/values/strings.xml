@@ -1,3 +1,12 @@
 <resources>
-    <string name="app_name">broadcastingassignment</string>
+    <string name="app_name">Broadcasting Assignment</string>
+    <string name="submit">Submit</string>
+    <string name="hintText">Please Input Text</string>
+    <string name="send">SEND</string>
+    <string-array name="spinnerList">
+        <!--        <item>Select any receiver</item>-->
+        <item>Custom broadcast receiver</item>
+        <item>WIFI RTT state change receiver</item>
+        <item>System battery notification receiver</item>
+    </string-array>
 </resources>
