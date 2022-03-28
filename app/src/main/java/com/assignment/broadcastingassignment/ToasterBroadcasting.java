@@ -7,11 +7,11 @@ import android.widget.Toast;
 
 public class ToasterBroadcasting extends BroadcastReceiver {
 
-    public static String string = "";
+    public static String string = "default";
 
     @Override
     public void onReceive(Context context, Intent intent) {
         string = "Broadcast Received: " + TextBroadcastReceiver.text;
-        Toast.makeText(context, string, Toast.LENGTH_LONG).show();
+        Toast.makeText(context, string, Toast.LENGTH_SHORT).show();
     }
 }

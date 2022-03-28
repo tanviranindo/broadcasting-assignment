@@ -7,7 +7,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class TextBroadcastReceiver extends AppCompatActivity {
     public static final String header = "Text Broadcast Receiver";
-    public static String text = "";
+    public static String text = "null";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

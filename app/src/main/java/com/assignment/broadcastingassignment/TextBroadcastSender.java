@@ -10,7 +10,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class TextBroadcastSender extends AppCompatActivity {
     public static final String header = "Text Broadcast Sender";
-    public static final String EXTRA_TEXT = "";
+    public static final String EXTRA_TEXT = "EXTRA_TEXT";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,6 +24,7 @@ public class TextBroadcastSender extends AppCompatActivity {
 
     private void textSubmit() {
         EditText editText = findViewById(R.id.editTextSender);
+        if (editText.toString().equals(" ")) return;
         Intent intent = new Intent(this, TextBroadcastReceiver.class);
         String text = editText.getText().toString();
         intent.putExtra(EXTRA_TEXT, text);

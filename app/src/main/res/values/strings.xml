@@ -3,6 +3,7 @@
     <string name="submit">Submit</string>
     <string name="hintText">Please Input Text</string>
     <string name="send">SEND</string>
+    <string name="wifiStatus">WIFI IS OFF</string>
     <string-array name="spinnerList">
         <!--        <item>Select any receiver</item>-->
         <item>Custom broadcast receiver</item>
