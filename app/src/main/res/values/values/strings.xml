@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Broadcasting Assignment</string>
+    <string name="submit">Submit</string>
+    <string name="hintText">Please Input Text</string>
+    <string name="back">BACK</string>
+    <string name="send">SEND</string>
+    <string name="wifiStatus">WIFI IS OFF</string>
+    <string name="networkStatus">No Internet</string>
+    <string name="hintBattery">Enter battery health</string>
+    <string name="charging_status">Charging Status:</string>
+    <string name="system_output">System Output:</string>
+    <string name="user_input">User Input:</string>
+    <string name="battery_health">Battery Health:</string>
+    <string name="textview">Select any broadcasting</string>
+    <string-array name="spinnerList">
+        <item>Custom broadcast receiver</item>
+        <item>WIFI RTT state change receiver</item>
+        <item>System battery notification receiver</item>
+    </string-array>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_transform">Transform</string>
+    <string name="menu_reflow">Reflow</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_settings">Settings</string>
+
+    <string name="lorem_ipsum_title">Lorem Ipsum"</string>
+    <string name="lorem_ipsum">Lorem Ipsum is simply placeholder text of the printing and
+        typesetting industry. Lorem Ipsum has been the industry\'s standard placeholder text ever
+        since the 1500s, when an unknown printer took a galley of type and scrambled it to make a
+        type specimen book"
+    </string>
+    <string name="fab_content_description">Represents a view to invoke an action</string>
+    <string name="image_view_item_transform_content_description">Represents an image view in the
+        item
+    </string>
+</resources>

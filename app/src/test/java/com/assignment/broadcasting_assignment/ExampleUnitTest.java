@@ -1,4 +1,4 @@
-package com.assignment.broadcastingassignment;
+package com.assignment.broadcasting_assignment;
 
 import org.junit.Test;
 

@@ -1,4 +1,4 @@
-package com.assignment.broadcastingassignment;
+package com.assignment.broadcasting_assignment;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -20,6 +20,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("com.assignment.broadcastingassignment", appContext.getPackageName());
+        assertEquals("com.assignment.broadcasting_assignment", appContext.getPackageName());
     }
 }

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TextBroadcastReceiver">
+
+    <TextView
+        android:id="@+id/viewBatteryReceiver"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:layout_marginTop="100dp"
+        android:text=""
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/batteryOutput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="8pt"
+        app:layout_constraintBottom_toBottomOf="@+id/row1"
+        app:layout_constraintEnd_toEndOf="@+id/systemOutput"
+        tools:text="@tools:sample/cities" />
+
+    <TextView
+        android:id="@+id/chargingOutput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="8pt"
+        app:layout_constraintBottom_toBottomOf="@+id/row3"
+        app:layout_constraintEnd_toEndOf="@+id/batteryHealth"
+        tools:text="@tools:sample/date/ddmmyy" />
+
+    <TextView
+        android:id="@+id/systemOutput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="8pt"
+        app:layout_constraintBottom_toBottomOf="@+id/row2"
+        app:layout_constraintEnd_toEndOf="@+id/chargingOutput"
+        tools:text="@tools:sample/cities" />
+
+    <TextView
+        android:id="@+id/batteryHealth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="8pt"
+        app:layout_constraintBottom_toBottomOf="@+id/row4"
+        app:layout_constraintEnd_toEndOf="@+id/outputDifference"
+        tools:text="@tools:sample/cities" />
+
+    <TextView
+        android:id="@+id/outputDifference"
+        android:layout_width="345dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="415dp"
+        android:layout_marginEnd="33dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="8pt"
+        app:layout_constraintBottom_toTopOf="@+id/backBatteryReceiver"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/backBatteryReceiver"
+        android:layout_width="95dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="535dp"
+        android:layout_marginBottom="148dp"
+        android:backgroundTint="?android:attr/colorPressedHighlight"
+        android:text="@string/back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/outputDifference"
+        app:layout_constraintStart_toStartOf="@+id/outputDifference"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/row1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="160dp"
+        android:text="@string/user_input"
+        android:textColor="@color/black"
+        android:textSize="8pt"
+        app:layout_constraintStart_toStartOf="@+id/row2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/row2"
+        android:layout_width="161dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="220dp"
+        android:text="@string/system_output"
+        android:textColor="@color/black"
+        android:textSize="8pt"
+        app:layout_constraintStart_toStartOf="@+id/row3"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/row3"
+        android:layout_width="134dp"
+        android:layout_height="27dp"
+        android:layout_marginTop="280dp"
+        android:text="@string/charging_status"
+        android:textColor="@color/black"
+        android:textSize="8pt"
+        app:layout_constraintStart_toStartOf="@+id/row4"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/row4"
+        android:layout_width="119dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="332dp"
+        android:text="@string/battery_health"
+        android:textColor="@color/black"
+        android:textSize="8pt"
+        app:layout_constraintStart_toStartOf="@+id/outputDifference"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="20dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="20dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

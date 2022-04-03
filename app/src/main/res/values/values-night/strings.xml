@@ -1,4 +1,4 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
+<resources>
     <string name="app_name">Broadcasting Assignment</string>
     <string name="submit">Submit</string>
     <string name="hintText">Please Input Text</string>
@@ -12,7 +12,7 @@
     <string name="user_input">User Input:</string>
     <string name="battery_health">Battery Health:</string>
     <string name="textview">Select any broadcasting</string>
-    <string-array name="spinnerList" tools:ignore="InconsistentArrays">
+    <string-array name="spinnerList">
         <item>Custom broadcast receiver</item>
         <item>WIFI RTT state change receiver</item>
         <item>System battery notification receiver</item>

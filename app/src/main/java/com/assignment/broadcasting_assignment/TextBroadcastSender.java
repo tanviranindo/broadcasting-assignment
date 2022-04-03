@@ -1,4 +1,4 @@
-package com.assignment.broadcastingassignment;
+package com.assignment.broadcasting_assignment;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -20,6 +20,10 @@ public class TextBroadcastSender extends AppCompatActivity {
         textViewHeader.setText(header);
         Button button = findViewById(R.id.buttonTextSender);
         button.setOnClickListener(view -> textSubmit());
+
+        Button back = findViewById(R.id.backTextSender);
+        back.setOnClickListener(view -> startActivity(new Intent(view.getContext(), MainActivity.class)));
+
     }
 
     private void textSubmit() {

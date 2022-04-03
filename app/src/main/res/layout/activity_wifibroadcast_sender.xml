@@ -4,7 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".WIFIBroadcastSender">
+    tools:context=".WIFIBroadcastSender"
+    tools:layout_editor_absoluteX="1dp"
+    tools:layout_editor_absoluteY="20dp">
 
     <TextView
         android:id="@+id/wifiRTTBroadcast"
@@ -15,9 +17,10 @@
         android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/wifi_switch"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.499"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.738" />
+        app:layout_constraintVertical_bias="0.947" />
 
     <com.google.android.material.switchmaterial.SwitchMaterial
         android:id="@+id/wifi_switch"
@@ -25,10 +28,37 @@
         android:layout_height="wrap_content"
         android:minHeight="48dp"
         android:text="@string/wifiStatus"
-        android:textSize="34sp"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toTopOf="@+id/networkStatus"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.499"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.878" />
+
+    <TextView
+        android:id="@+id/networkStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="248dp"
+        android:text="@string/networkStatus"
+        android:textColor="@color/black"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.499"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/backWifiSender"
+        android:layout_width="95dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="160dp"
+        android:backgroundTint="?android:attr/colorPressedHighlight"
+        android:text="@string/back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/networkStatus"
+        app:layout_constraintVertical_bias="0.82" />
 </androidx.constraintlayout.widget.ConstraintLayout>

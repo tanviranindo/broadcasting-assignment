@@ -1,8 +1,10 @@
-package com.assignment.broadcastingassignment;
+package com.assignment.broadcasting_assignment;
 
-import android.os.Bundle;
 import android.content.Intent;
+import android.os.Bundle;
 import android.widget.TextView;
+import android.widget.Toast;
+
 import androidx.appcompat.app.AppCompatActivity;
 
 public class TextBroadcastReceiver extends AppCompatActivity {
@@ -26,7 +28,6 @@ public class TextBroadcastReceiver extends AppCompatActivity {
     @Override
     protected void onStart() {
         super.onStart();
-        Intent intent = new Intent(this, ToasterBroadcasting.class);
-        sendBroadcast(intent);
+        Toast.makeText(getApplicationContext(), "Broadcast Received: " + text, Toast.LENGTH_SHORT).show();
     }
 }

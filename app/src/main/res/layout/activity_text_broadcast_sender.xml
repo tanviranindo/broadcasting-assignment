@@ -36,6 +36,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.325" />
 
+
     <Button
         android:id="@+id/buttonTextSender"
         android:layout_width="95dp"
@@ -44,9 +45,23 @@
         android:text="@string/send"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.651"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextSender"
-        app:layout_constraintVertical_bias="0.192" />
+        app:layout_constraintVertical_bias="0.191" />
+
+    <Button
+        android:id="@+id/backTextSender"
+        android:layout_width="95dp"
+        android:layout_height="48dp"
+        android:backgroundTint="?android:attr/colorPressedHighlight"
+        android:text="@string/back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.316"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextSender"
+        app:layout_constraintVertical_bias="0.191" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline2"

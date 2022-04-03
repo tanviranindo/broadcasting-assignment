@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/User/AndroidStudioProjects/broadcastingassignment/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/broadcastingassignment/app/src/main/res/layout/activity_system_broadcast_receiver.xml" value="0.1574074074074074" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/broadcastingassignment/app/src/main/res/layout/activity_system_broadcast_sender.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/broadcastingassignment/app/src/main/res/layout/activity_text_broadcast_receiver.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/broadcastingassignment/app/src/main/res/layout/activity_text_broadcast_sender.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/broadcastingassignment/app/src/main/res/layout/activity_wifibroadcast_sender.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+</project>
