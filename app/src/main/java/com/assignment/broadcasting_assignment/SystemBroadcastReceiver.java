@@ -33,9 +33,6 @@ public class SystemBroadcastReceiver extends AppCompatActivity {
         TextView userInput = findViewById(R.id.batteryOutput);
         userInput.setText(text);
 
-        TextView textView = findViewById(R.id.systemOutput);
-        textView.setText(text);
-
         batteryOutput = findViewById(R.id.systemOutput);
         registerReceiver(this.batteryLevel, new IntentFilter(Intent.ACTION_BATTERY_CHANGED));
 
