@@ -2,6 +2,7 @@ package com.assignment.broadcasting_assignment;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -23,6 +24,9 @@ public class TextBroadcastReceiver extends AppCompatActivity {
         text = intent.getStringExtra(TextBroadcastSender.EXTRA_TEXT);
         TextView textView = findViewById(R.id.broadcastOutput);
         textView.setText(text);
+
+        Button back = findViewById(R.id.backTextSender);
+        back.setOnClickListener(view -> startActivity(new Intent(view.getContext(), TextBroadcastSender.class)));
     }
 
     @Override

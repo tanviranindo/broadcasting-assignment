@@ -9,59 +9,92 @@
     <TextView
         android:id="@+id/viewBatteryReceiver"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="108dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="16dp"
         android:text=""
         android:textColor="@color/black"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.499"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/outputDifference"
-        android:layout_width="345dp"
-        android:layout_height="62dp"
-        android:layout_marginTop="376dp"
+        android:layout_width="346dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="200dp"
         android:text=""
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="8pt"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.476"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-
     <TextView
-        android:id="@+id/batteryOutput"
+        android:id="@+id/row1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="172dp"
-        android:layout_marginEnd="100dp"
-        android:text=""
+        android:layout_marginStart="231dp"
+        android:layout_marginTop="68dp"
+        android:text="@string/user_input"
+        android:textColor="@color/black"
         android:textSize="8pt"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/systemOutput"
+        android:id="@+id/row3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="212dp"
-        android:layout_marginEnd="100dp"
-        android:text=""
+        android:layout_marginTop="132dp"
+        android:text="@string/charging_status"
+        android:textColor="@color/black"
         android:textSize="8pt"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/row2"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/chargingOutput"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="252dp"
-        android:layout_marginEnd="100dp"
+        android:layout_marginTop="124dp"
+        android:layout_marginEnd="244dp"
+        android:text=""
+        android:textSize="8pt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/row2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="@string/system_output"
+        android:textColor="@color/black"
+        android:textSize="8pt"
+        app:layout_constraintEnd_toEndOf="@+id/row1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/systemOutput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="96dp"
+        android:layout_marginEnd="244dp"
+        android:text=""
+        android:textSize="8pt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/batteryOutput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="244dp"
         android:text=""
         android:textSize="8pt"
         app:layout_constraintEnd_toEndOf="parent"
@@ -71,70 +104,35 @@
         android:id="@+id/batteryHealth"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="288dp"
-        android:layout_marginEnd="100dp"
+        android:layout_marginTop="152dp"
+        android:layout_marginEnd="244dp"
         android:text=""
         android:textSize="8pt"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/row1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="172dp"
-        android:text="@string/user_input"
-        android:textColor="@color/black"
-        android:textSize="8pt"
-        app:layout_constraintEnd_toEndOf="@+id/row2"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/row3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="252dp"
-        android:text="@string/charging_status"
-        android:textColor="@color/black"
-        android:textSize="8pt"
-        app:layout_constraintEnd_toEndOf="@+id/row4"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
         android:id="@+id/row4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="68dp"
-        android:layout_marginTop="291dp"
+        android:layout_marginStart="192dp"
+        android:layout_marginTop="164dp"
         android:text="@string/battery_health"
         android:textColor="@color/black"
         android:textSize="8pt"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/row2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="212dp"
-        android:text="@string/system_output"
-        android:textColor="@color/black"
-        android:textSize="8pt"
         app:layout_constraintEnd_toEndOf="@+id/row3"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/backBatteryReceiver"
         android:layout_width="95dp"
         android:layout_height="48dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="8dp"
         android:backgroundTint="?android:attr/colorPressedHighlight"
         android:text="@string/back"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/outputDifference"
-        app:layout_constraintVertical_bias="0.013" />
+        app:layout_constraintTop_toBottomOf="@+id/outputDifference" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

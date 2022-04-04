@@ -6,18 +6,20 @@
     android:layout_height="match_parent"
     tools:context=".TextBroadcastReceiver">
 
+
     <TextView
         android:id="@+id/viewTextReceiver"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text=""
-        android:textSize="20sp"
         android:textColor="@color/black"
+        android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/broadcastOutput"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.738" />
+        app:layout_constraintVertical_bias="0.8" />
 
     <TextView
         android:id="@+id/broadcastOutput"
@@ -29,5 +31,18 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.357" />
+        app:layout_constraintVertical_bias="0.464" />
+
+    <Button
+        android:id="@+id/backTextSender"
+        android:layout_width="95dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="?android:attr/colorPressedHighlight"
+        android:text="@string/back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/broadcastOutput"
+        app:layout_constraintVertical_bias="0.166" />
 </androidx.constraintlayout.widget.ConstraintLayout>
