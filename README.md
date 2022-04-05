@@ -16,6 +16,28 @@ Broadcasting assignment for CSE489: Android Development
 - Capacitor JS
 - Quasar
 
+# Instruction
+### Build
+Install the dependencies
+```bash
+npm install
+```
+or
+```bash
+yarn install
+```
+### Development
+Start the application in the development mode (hot-code reloading, error reporting, etc.)
+```bash
+quasar dev
+```
+
+### Build
+Build the app for production
+```bash
+quasar build
+```
+
 # Support
 
 This application has been tested on both portrait and landscape mode in the following devices.
