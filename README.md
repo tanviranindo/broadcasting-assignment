@@ -40,12 +40,18 @@ Start the application in the development mode (hot-code reloading, error reporti
 quasar dev
 ```
 
-### Add Android
+### Add
 
-Install the @capacitor/android package.
+Install the @capacitor/android package for android
 
 ```bash
 yarn add @capacitor/android
+```
+
+Install the @capacitor/ios package for iOS
+
+```bash
+yarn add @capacitor/ios
 ```
 
 ### Build
@@ -56,24 +62,55 @@ Build the app for production
 quasar build
 ```
 
-Sync the project.
+Sync the project
 
 ```bash
 npx cap sync
 ```
 
-Add the Android platform.
+Add the Android platform
 
 ```bash
 npx cap add android
 ```
 
+Add the iOS platform
+
+```bash
+npx cap add ios
+```
+
 ### Android Studio
 
-Open the project in Android Studio.
+To open the project in Android Studio
 
 ```bash
 npx cap open android
+
+```
+
+### Xcode
+
+To open the project in Xcode
+
+```bash
+npx cap open ios
+
+```
+
+### Run
+
+To run the project on a device or simulator
+
+```bash
+npx cap run android
+
+```
+
+or
+
+```bash
+npx cap run ios
 
 ```
 
