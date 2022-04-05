@@ -1,6 +1,6 @@
 # Broadcasting Assignment
 
-Broadcasting assignment for CSE489: Android Development
+Broadcasting Assignment for CSE489: Android Development
 
 ## Github Repository
 
