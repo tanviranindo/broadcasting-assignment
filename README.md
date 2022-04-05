@@ -17,25 +17,64 @@ Broadcasting assignment for CSE489: Android Development
 - Quasar
 
 # Instruction
+
 ### Build
+
 Install the dependencies
+
 ```bash
 npm install
 ```
+
 or
+
 ```bash
 yarn install
 ```
+
 ### Development
+
 Start the application in the development mode (hot-code reloading, error reporting, etc.)
+
 ```bash
 quasar dev
 ```
 
+### Add Android
+
+Install the @capacitor/android package.
+
+```bash
+yarn add @capacitor/android
+```
+
 ### Build
+
 Build the app for production
+
 ```bash
 quasar build
+```
+
+Sync the project.
+
+```bash
+npx cap sync
+```
+
+Add the Android platform.
+
+```bash
+npx cap add android
+```
+
+### Android Studio
+
+Open the project in Android Studio.
+
+```bash
+npx cap open android
+
 ```
 
 # Support

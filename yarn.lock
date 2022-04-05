@@ -979,7 +979,7 @@
 
 "@capacitor/android@^3.4.3":
   version "3.4.3"
-  resolved "https://registry.npmjs.org/@capacitor/android/-/android-3.4.3.tgz"
+  resolved "https://registry.yarnpkg.com/@capacitor/android/-/android-3.4.3.tgz#1bfaa5bbe83872f7ba5c7d7bd38b54a47827124b"
   integrity sha512-G/6+mbOde9LMWl5KvA5rB/xEQF05sKrQFMBwo8y3C8pYF+axtcrS0Dgze9rOB7nCjH4NXv/bLw58E9+q8/sQUA==
 
 "@capacitor/core@^3.4.3":
