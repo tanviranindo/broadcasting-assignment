@@ -1,6 +1,0 @@
-[
-	{
-		"pkg": "@capacitor/network",
-		"classpath": "com.capacitorjs.plugins.network.NetworkPlugin"
-	}
-]
