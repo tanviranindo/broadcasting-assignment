@@ -67,3 +67,7 @@ This application has been tested on both portrait and landscape mode in the foll
 # Update
 
 As per requirements, the assignment is completed.
+
+# Bug
+
+- [ ] Wi-Fi on/off button exception needs to be handled.

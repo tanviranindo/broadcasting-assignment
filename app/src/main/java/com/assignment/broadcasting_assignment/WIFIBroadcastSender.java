@@ -41,21 +41,27 @@ public class WIFIBroadcastSender extends AppCompatActivity {
     }
 
     private void toggleWiFi(boolean status) {
-        Intent panelIntent = new Intent();
-        if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.Q)
-            panelIntent = new Intent(Settings.Panel.ACTION_INTERNET_CONNECTIVITY);
 
         WifiManager wifiManager = (WifiManager) getApplicationContext().getSystemService(Context.WIFI_SERVICE);
-        if (status && !wifiManager.isWifiEnabled()) {
-            wifiManager.setWifiEnabled(true);
-            startActivityForResult(panelIntent, 0);
-            Toast.makeText(getApplicationContext(), "Turning on Wi-Fi", Toast.LENGTH_SHORT).show();
 
-        } else if (!status && wifiManager.isWifiEnabled()) {
-            wifiManager.setWifiEnabled(false);
-            startActivityForResult(panelIntent, 1);
-            Toast.makeText(getApplicationContext(), "Turning off Wi-Fi", Toast.LENGTH_SHORT).show();
+        if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.Q) {
+            Intent panelIntent = new Intent(Settings.Panel.ACTION_INTERNET_CONNECTIVITY);
+            if (status && !wifiManager.isWifiEnabled()) {
+                startActivityForResult(panelIntent, 0);
+                Toast.makeText(getApplicationContext(), "Turning on Wi-Fi", Toast.LENGTH_SHORT).show();
+            } else if (!status && wifiManager.isWifiEnabled()) {
+                startActivityForResult(panelIntent, 1);
+                Toast.makeText(getApplicationContext(), "Turning off Wi-Fi", Toast.LENGTH_SHORT).show();
+            }
+        } else {
 
+            if (status && !wifiManager.isWifiEnabled()) {
+                wifiManager.setWifiEnabled(true);
+                Toast.makeText(getApplicationContext(), "Turning on Wi-Fi", Toast.LENGTH_SHORT).show();
+            } else if (!status && wifiManager.isWifiEnabled()) {
+                wifiManager.setWifiEnabled(false);
+                Toast.makeText(getApplicationContext(), "Turning off Wi-Fi", Toast.LENGTH_SHORT).show();
+            }
         }
     }
 
